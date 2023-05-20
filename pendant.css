@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #111;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.logo{
+    width: 360px;
+    position: fixed;
+    z-index: 100;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.images{
+
+    position: fixed;
+    display: flex;
+    z-index: 100;
+}
+
+.images button{
+
+    background-color: transparent;
+    border: none;
+    padding: 2rem;
+    color: #484141;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 2s;
+}
+
+.buttons{
+    margin-left: 22rem;
+}
+
+button:hover{
+
+    color: #fff;
+}
+
+.card{
+
+    text-align: center;
+}
+.card-title h1{
+
+    font-size: 1.4rem;
+    padding: 10px 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #444;
+}
+.card-description button{
+
+    border: 2px solid rgb(237, 146, 161);
+    background-color: #fff;
+    color: rgb(236, 143, 158);
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    transition: 0.7s;
+}
+.card-description button:hover{
+
+    background-color:rgb(237, 146, 161);
+    color: #fff;
+}

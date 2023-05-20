@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #111;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.logo{
+    width: 360px;
+    position: fixed;
+    z-index: 100;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+.images{
+
+    position: fixed;
+    display: flex;
+    z-index: 100;
+}
+
+.images button{
+
+    background-color: transparent;
+    border: none;
+    padding: 2rem;
+    color: #484141;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 2s;
+}
+
+.buttons{
+    margin-left: 22rem;
+    padding-top: 1rem;
+}
+
+button:hover{
+
+    color: #fff;
+}
+
+.banner-home-video{
+    z-index: 10;
+    position: relative;
+    min-height: 100vh;
+}
+
+.banner-home-video .top{
+
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to top, rgba(255, 255, 225, 0));
+
+}
+
+.banner-home-video video{
+
+    width: 100%;
+}
+
+.banner-home-video .content{
+
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+}
+.card {
+
+    text-align: center;
+}
+
+.card-title h1 {
+
+    font-size: 1.4rem;
+    padding: 10px 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #444;
+}
+
+.card-description button {
+
+    border: 2px solid rgb(237, 146, 161);
+    background-color: #fff;
+    color: rgb(236, 143, 158);
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    transition: 0.7s;
+}
+
+.card-description button:hover {
+
+    background-color: rgb(237, 146, 161);
+    color: #fff;
+}
+
+@media (max-width:1200px) {
+    
+    .banner-home-video .content .left h1{
+
+        font-size: 0.8rem;
+       
+    }
+
+    .banner-home-video .content .left p{
+
+        max-width: 230px;
+        font-size: 0.4rem;
+    }
+
+    .banner-home-video .content .left button{
+
+        font-size: 0.4rem;
+
+    }
+    .banner-home-video .content{
+
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+        padding-left: 10px;
+    }
+ 
+    .banner-home-video .buttons{
+        margin: 0;
+        padding: 0;
+        margin-left: 10rem;
+        margin-top: 180px;
+    }
+    .banner-home-video .buttons a{
+
+        font-size: 8px;
+        margin: 0;
+        padding: 0;
+        margin-left: -3rem;
+
+    }
+    .banner-home-video .buttons button{
+
+        margin: 0;
+        margin-right: 0px;
+    }
+
+    .banner-home-video .images img{
+
+        margin-top: 0.5rem;
+        margin-left: 5px;
+        width: 120px;
+        height: 30px;
+    }
+    .new8{
+
+        margin-top: -35rem;
+    }
+    .banner3 img {
+
+        width: 370px;
+        margin: 0px;
+        height: 250px;
+        margin-bottom: 5rem;
+
+    }
+    
+}
